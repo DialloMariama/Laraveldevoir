@@ -25,7 +25,7 @@ add matiere
         <div class="card-body"></div>
         <form  method="POST" action="createMat">
             @csrf
-            <label for="">Nom de la Matire</label>
+            <label for="">Nom Matiere</label>
             <input type="text" class="form-control" name="nomMat">
             <button type="submit" class="btn btn-success mt-2 offset-4" >Ajouter</button>
         </form>

@@ -18,7 +18,7 @@ add etudiant
         <div class="card-body"></div>
         <form  method="POST" action="create">
             @csrf
-            <label for="">PreNom Etudiant</label>
+            <label for="">Prenom Etudiant</label>
             <input type="text" class="form-control" name="prenom">
             <label for="">Nom Etudiant</label>
             <input type="text" class="form-control" name="nom">

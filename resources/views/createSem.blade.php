@@ -5,7 +5,7 @@ add semsetre
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Form Validation in Laravel</title>
+    <title>Form</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- Custom CSS -->
@@ -25,7 +25,7 @@ add semsetre
         <div class="card-body"></div>
         <form  method="POST" action="createSe">
             @csrf
-            <label for="">Nom du Semtere</label>
+            <label for="">Nom Semtere</label>
             <input type="text" class="form-control" name="nomSems">
             <button type="submit" class="btn btn-success mt-2 offset-4" >Ajouter</button>
         </form>

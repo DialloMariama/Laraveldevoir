@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
     
-<body class="bg-dark">
+<body class="bg-secondary">
     <div class="container">
         <div class="row" style="margin:20px">
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h2>Devoir (Gestion de Classes)</h2>
+                        <h2>Gestion de Classes</h2>
                     </div>
                     <div class="card-body">
                         
